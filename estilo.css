@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    line-height: 1.3;
+}
+
+main{
+    background-image: url(imagens/pexels-negative-space-160107.jpg);
+    background-size: auto;
+    height: auto;
+    margin: auto;
+}
+
+header{
+    background-color:#99999b;
+    border-bottom: 5px solid#4c4b4eab;
+}
+
+header img{
+    padding-top: 0.5em;
+    border-radius: 40px;
+    padding-left: 10px;
+}
+
+h1{
+    padding-top: 20px;
+    color:  #fbfbfd;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    width: 200px;
+    border: 10px solid #ffffff;
+    border-radius: 20px;
+    border-width: 2px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+ .nome{
+    width: 200px;
+    border: 10px solid #ffffff;
+    border-radius: 20px;
+    border-width: 2px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 10px;
+ }
+
+h3{
+    color: #276e52;
+    text-align: center;
+    font-size: 22px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+nav{
+    background-color: #4a494b;
+    width: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+nav a{
+    text-transform: lowercase;
+}
+
+aside nav ul{
+    padding: 20px 0;
+}
+
+.artigo{
+    padding-top: 20px;
+    padding: 20px;
+    background-color: #ebeaf5c5;
+    width: 900px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.contatos{
+    padding-top: 20px;
+    clear: both;
+}
+
+main, header{
+    float: left;
+    width: 100%;
+}
+
+main article{
+    width: 720px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+section li{
+    display: inline-block;
+}
+
+section{
+    text-align: center;
+    background-color: #484849a8;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+ul {
+    margin-top: 20px;
+    color: rgb(255, 255, 255)
+}
+
+blockquote{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+blockquote, aside{
+    font-size: 18px;
+}
+
+ul li a{
+    color: inherit;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+footer{
+    padding: 1em;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(10, 10, 10);
+    background-color: #4c4b4eab;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+.info{
+    font-size: 14px;   
+}
+
+.redes-sociais a{
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github{
+    background-image: url(imagens/icone-github.png);
+}
+
+.instagram{
+    background-image: url(imagens/icone-instagram.png);
+}
+
+.linkedin{
+    background-image: url(imagens/icone-linkedin.png);
+}
+
+.e-mail{
+    background-image: url(imagens/icone-gmail.png);
+}
+
+.facebook{
+    background-image: url(imagens/icone-facebook.png);
+}
+
+cite{
+    margin-left: 30%;
+}
+
+.navegacao{
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.rodape{
+    clear: both;
+}
+
+.fotoperfil{
+    width: 20%;
+    position: fixed;
+    float: right;
+}
+
+.lista{
+    color: black;
+    line-height: 1;
+    margin: 1px;
+    padding-left: 40px;
+}
+
+.legenda{
+    text-align: center;
+}
+
+.carousel-caption{
+    background-color: rgba(255, 255, 255, 0);
+}
+/*
+.fotoflutuante{
+    float: right;
+} Forma de manter uma tag flutuante
+
+tag{
+    clear: both; // faz a limpeza de elementos flutuantes, pode ser com o right ou o left
+
+Ícones neste site:
+    <div>Icons made by <a href="https://www.flaticon.local/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.local/" title="Flaticon">www.flaticon.local</a></div>
+*/
